@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+}
+#container{position: relative;
+    margin: 0px auto;
+    padding: 0px 10px;
+    max-width: 1170px;
+}
+header{
+    border-bottom: 1px solid #f5f5f5;
+}
+.header-top-text{
+    white-space:nowrap;
+}
+.header-top-text{
+    height: 19px;
+    color: white;
+    background-color: #55829D
+}
+marquee span{
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.header-link-url{
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 10px;
+}
+.header-link-url ul{
+    padding: 10px 5px;
+    display: flex;
+}
+.header-left-link a{
+   display: flex;
+   margin: 0px 0px 0px 15px;
+}
+.header-left-link img{
+    width: 17.8px;
+}
+
+.header-left-pro-link{
+    display: flex;
+    border-left: 1px solid #f5f5f5;
+}
+.header-left-pro-link a{
+    padding: 0px 0px 0px 15px;
+}
+.header-left-pro-link img{
+    width: 20px;
+}
+.header-language {
+    position: absolute;
+    right: 0;
+}
+.header-language span{
+    float: right;
+    color: black;
+    padding: 0px 5px;
+    border-right: 2px solid;
+}
+.header-row{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+.header-row span{
+    font-size: 1.2em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.header-row img{
+    margin-right: 20px;
+    display: inline-block;
+}
+.contact{display: flex;
+    position: absolute;
+    right: 0;
+}
+.rig-contact-header{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+}
+.right-contact-rig-1{
+    border: 1px;
+    border-style: double;
+    padding: 9px 7px;
+    font-size: 12px;
+    border-radius: 4px;
+    border-color: #5AA438;
+    color: #5AA438;
+}
+.right-contact-rig{
+    border: 1px;
+    border-style: double;
+    padding: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+    border-color: #0a7892;
+    color: #0a7892;
+}
+.contact{
+    font-weight: bold;
+}
+.contact li{
+    display: flex;
+    align-items: center;
+}
+.contact img{
+    width: 19.68px;
+}
+.contact span,.contact span a{
+    /* display: table-cell; */
+    font-size: 15px;
+    /* vertical-align: middle; */
+    text-align: left;
+    line-height: normal;
+}
+nav{
+    background-color: #fff;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+.navbar li ,.navbar a{
+        position: relative;
+        padding: 15px 0 12px;
+        color: #3c495a;
+        font-weight: bold;
+        border-bottom: 3px solid transparent;
+        background-color: transparent !important;
+    }
+.navbar a:after{
+        bottom: -10%;
+        content: "";
+        position: absolute;
+        background-color: #0a7892;
+        height: 4px;
+        left: 0px;
+        width: 0;
+       transition: 0.4s;
+    }
+.navbar a:hover::after{
+        width: 100%;
+    }
+main{height: 470px;
+     background: linear-gradient(to right, #43cea2, #185a9d);
+}
+.main-slide{
+    width: 80%;
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding-top: 20px ;
+}
+.main-slide-text{
+        display: block;
+        float: left;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .main-slide-text p {
+    color: #fff;
+    padding: 80px 30px 40px;
+}
+    .btn-main{
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+      }
+    .btn-main a{
+    color: #fff;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-color: #5cb85c;
+     border-color: #4cae4c;
+    }
+    .main-content-2{
+     padding: 20px 35px;
+     text-align: center;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 14px rgb(0 0 0 / 10%);
+    }
+    .main-content-2 img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .main-content-2 ul{
+        display: flex;
+    }
+    .main-content-2 a{
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: #3c495a;
+        font-weight: 600;
+        font-family: FontSemibold, serif;
+    }

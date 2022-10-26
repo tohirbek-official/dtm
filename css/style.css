@@ -102,11 +102,12 @@ marquee span{
     border-radius: 4px;
     border-color: #5AA438;
     color: #5AA438;
+    margin-bottom: 50px;
 }
 .right-contact-rig{
     border: 1px;
     border-style: double;
-    padding: 7px;
+    padding: 7px 4px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -121,6 +122,7 @@ marquee span{
     display: flex;
     align-items: center;
 }
+
 .contact img{
     width: 19.68px;
 }

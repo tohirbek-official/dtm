@@ -139,7 +139,7 @@ nav{
 }
 .navbar ul{
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 .navbar li ,.navbar a{
         position: relative;
@@ -221,3 +221,99 @@ main{height: 470px;
         font-weight: 600;
         font-family: FontSemibold, serif;
     }
+    @media only screen and (max-width: 1095px){
+        #container{
+            max-width: 1000px;
+        }
+        .navbar ul{
+           gap: 15px;
+        }
+        .contact ul{
+        padding-right: 10px;
+        }
+        .contact ul li a{
+            font-size: 0.9em;
+        }
+        .header-row span {
+            font-size: 0.9em;
+            line-height: 18px;
+        }
+        } 
+        @media only screen and (max-width: 975px){
+           #container{
+            max-width: 900px;
+           }
+            .navbar ul{
+                font-size: 11px;
+               gap: 10px;
+            }
+            .header-row span {
+                font-size: 0.9em;
+                line-height: 18px;
+            }
+            .gerb-img img{
+                width: 77%;
+            }
+            .main-slide img{
+                width: 60%;
+            }
+            }
+            @media only screen and (max-width: 880px){
+                #container{
+                max-width: 580px;
+              }
+              nav{
+                display: none;
+            }
+            .rig-contact-header{
+                display: none;
+            }
+              .main-slide{
+                width: 100%;
+              }
+              .main-slide img{
+                width: 60%;
+            }
+            }
+
+            @media only screen and (max-width: 690px){
+                .main-slide img{
+                    width: 50%;
+                }
+            }
+            @media only screen and (max-width: 560px){
+                .contact{
+                    display: none;
+                }
+                
+            }
+            @media only screen and (max-width: 442px){
+                .header-language{
+                    display: none;
+                }
+                .header-link-url{
+                    justify-content: center;
+                }
+                .main-slide{
+                    flex-direction: column;
+                }
+                .main-slide img{
+                    width: 100%;
+                }
+            }
+
+            @media only screen and (max-width: 350px){
+             .header-left-pro-link ul{
+                display: none;
+             }
+             .contact{
+                display: none;
+             }
+             .main-slide{
+                display: flex;
+                flex-direction: column;
+             }
+             .main-slide img{
+                width: 100%;
+             }
+            }
